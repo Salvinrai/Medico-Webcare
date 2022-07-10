@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comaptible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, intial-scaler=1.0">
+        <title> Doctor Finder </title>
+        <link rel="stylesheet" href="css/stylev.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class ="containersalvin">
+            <div class = "sidebar ">
+                <div class="logo">
+                    <img src="img/logo.png"><span>Medico</span>
+                </div>  
+            <nav>
+                <ul>
+                    <li><a href ="/patient">HOME</a></li>
+                    <li><a href ="/patientP">PROFILE</a></li>
+                    <li><a href ="/patientR">REPORTS</a></li>
+                    <li><a href ="/pCheck">CHECK-UP</a></li>
+                    <li><a href ="/patientD">DOCTOR</a></li>
+                    <li><a href ="/patientM">MEDICINE</a></li>
+                    
+                </ul>
+            </nav>
+           
+            </div>
+            
+        
+            <div class="education" >
+                <div class="PDtopic"> Find Your Doctor</div>
+                <section class="work-section">
+                   <a href="/patientDI"><div class="row">
+                            <div class="col span_1_of_2 about-box js--about-box">
+                            <img src="img/happy.png" alt="Medico on technology" class="technology-image">
+                            <h3>Dr.{{doctorname}}</h3>
+                            <h3>Degree: {{Degree}}</h3>
+                            <p class="about-para">Experienced physician of medicine({{Degree}})</p>
+                          <p class="about-para">{{Experience}}+ years experince with goverment hospital practice</p>
+                        
+                    </div>
+                    <div class="div-body">
+                        <h2 class="section-heading">  Doctor's Experience </h2>
+                        <p class="about-para1">Neurologist-Specialist in nervous system</p>
+                        <p class="about-para1">Join with our Medico Webcare for a month</p>
+                        <br>
+                        <p class="about-para1">Patient handle till now is {{handle}}+ </p>
+                        <p class="about-para1">{{info}}</p>
+                        
+                    </div>
+                    </div>
+                   </a>
+                </section>
+
+            </div>
+        
+    </div>
+    
+    
+    <script src=".js/scriptS.js"></script>
+    </body>
+</html>

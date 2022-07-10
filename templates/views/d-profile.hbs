@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comaptible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, intial-scaler=1.0">
+        <title> Doctor Profile </title>
+        <link rel="stylesheet" href="css/styledv.css">
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+        <div class ="containersalvin">
+            <div class = "sidebar ">
+            <div class="logo">
+                <img src="img/logo.png"><span>Medico</span>
+            </div>  
+            <nav>
+                <ul>
+                     <li><a href ="doctorv">HOME</a></li>
+                    <li><a href ="d-profile">PROFILE</a></li>
+                    <li><a href ="doctorPV">PATIENT</a></li>
+                    <li><a href ="pCheck.html">TIME SCHEDULE</a></li>
+                    <li><a href ="patientD.html">ACCESS</a></li>
+                    
+                    
+                </ul>
+            </nav>
+           
+            </div>
+            
+        
+            <div class="education" >
+                <div class=" profile-form">
+                    <div class="profile-nav">
+                        <nav>
+                            <ul>
+                                 <li><a href ="d-profile"><i class="fa-solid fa-user"></i></a></li>
+                                <li><a href ="d-profile-u"><i class="fa-solid fa-user-pen"></i></a></li>
+                                <li><a href ="d-profile-ui"><i class="fa-solid fa-receipt"></i></a></li>
+                                <li><a href ="d-profile-us"><i class="fa-solid fa-file-lines"></i></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class ="profile-info">
+                      <div class ="profile-workspace">
+                        <div class="profile-p-img">
+                            <img src="img/bg1.jpg">
+                        </div>
+                        <div class="profile-card">
+                            <div class="profile-main">
+                              <h3 class="main-header"><i class="far fa-clone pr-1"></i>Main Info</h3>
+                            </div>
+                            <div class="card-body">
+                              <table class="table">
+                                <tr>
+                                  <th width="30%">Name </th>
+                                  <td width="2%">:</td>
+                                  <td>{{doctorname}}</td>
+                                </tr>
+                                <tr>
+                                  <th width="30%">Age</th>
+                                  <td width="2%">:</td>
+                                  <td>{{age}}</td>
+                                </tr>
+                                <tr>
+                                  <th width="30%">Gender</th>
+                                  <td width="2%">:</td>
+                                  <td>{{sex}}</td>
+                                </tr>
+                                <tr>
+                                  <th width="30%">Email-id</th>
+                                  <td width="2%">:</td>
+                                  <td>{{Email}}</td>
+                                </tr>
+                                <tr>
+                                  <th width="30%">DEGREE</th>
+                                  <td width="2%">:</td>
+                                  <td>{{Degree}}</td>
+                                </tr>
+
+                                <tr>
+                                    <th width="30%">Phone NO </th>
+                                    <td width="2%">:</td>
+                                    <td>{{phone}}</td>
+                                  </tr>
+
+                              </table>
+                            </div>
+                          </div>
+                      </div>
+                      <div class ="profile-workspace">
+                        <div class="profile-p-h">
+                            <div class="profile-harm">
+                                <div class="profile-main-h">
+                                  <h3 class="main-header"><i class="far fa-clone pr-1"></i>Important</h3>
+                                </div>
+                                <div class="card-body">
+                                  <table class="table">
+                                    <tr>
+                                      <th width="30%">Specialist in</th>
+                                      <td width="2%">:</td>
+                                      <td>{{Specalist}}</td>
+                                    </tr>
+                                    <tr>
+                                      <th width="30%">Experience</th>
+                                      <td width="2%">:</td>
+                                      <td>{{Experience}}+</td>
+                                    </tr>
+                                    <tr>
+                                      <th width="30%">Patient handle</th>
+                                      <td width="2%">:</td>
+                                      <td>{{handle}}+</td>
+                                    </tr>
+                                    
+                                  </table>
+                                </div>
+
+                            </div>
+                                  
+                        </div>
+                        <div class="profile-imp">
+                            <div class="profile-imp">
+                              <h3 class="main-header"><i class="far fa-clone pr-1"></i>Brief Info</h3>
+                            </div>
+                            <div class="card-imp">
+                              <p>{{info}}</p>
+                            </div>
+                         </div>
+                      </div>   
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+            
+        
+        </div>
+    
+    
+    
+    </body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comaptible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, intial-scaler=1.0">
+        <title>  Doctor Consult Service  </title>
+        <link rel="stylesheet" href="css/styleServer.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class ="containersalvin">
+            <div class = "sidebar sidebargo">
+                
+            <nav>
+                <ul>
+                    <li><a href ="#HOME">HOME</a></li>
+                    <li><a href ="#MEDICINE">MEDICINE</a></li>
+                    <li><a href ="#REPORT">REPORTS</a></li>
+                    <li><a href ="#CHECK">CHECK-UP</a></li>
+                    <li><a href ="#HOME">PATIENT</a></li>
+                    <li><a href ="#CURRENT">STATUS</a></li>
+                    <li><a href ="#INFO">INFO</a></li>
+                    <li><a href ="back-p">BACK</a></li>
+                    
+                </ul>
+            </nav>
+           
+            </div>
+            <div class = "sidebar1 sidebargo1">
+                
+                <div class ="com">
+                    <div class="message__area"></div>
+                    <div>
+                        <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+                    </div>
+                
+                   
+                </div>
+           
+        </div>
+        
+            <div class="education" >
+                <div class ="control">
+                    <i class="material-icons togglee" style="font-size:36px">dehaze</i>
+                    <i class="material-icons cross" style="font-size:36px">cancel</i>
+                </div>
+                <div class ="control_message">
+                    <i class="material-icons togglee1" style="font-size:36px">dehaze</i>
+                    <i class="material-icons cross1" style="font-size:36px">cancel</i>
+                </div>
+                <div class="view-based">
+                    <div class="too-info">
+                    <div class="based-info" id="HOME">
+                        <h1>
+                            Patient info
+                        </h1>
+                    <hr/>
+                    <div class ="sub-info">
+                        <div class="first-part"> PATIENT NAME : <span>{{patientname}}</span></div>
+                        <hr/>
+                        <div class="first-part"> AGE : <span>{{age}}</span></div>
+                        <hr/>
+                        <div class="first-part"> GENDER : <span>{{Gender}}</span></div>
+                        <hr/>
+                        <div class="first-part"> EMAIL : <span>{{email}}</span></div>
+                        <hr/>
+                        <div class="first-part"> AADHAR : <span>{{Aadhar}}</span></div>
+                        <hr/>
+                        <div class="first-part"> MOBILE NO : <span>{{phone}}</span></div>
+                        <hr/>
+                    </div>
+                    </div>
+
+                    <div class="based-info" id="CURRENT">
+                        <h2> Current Status : </h2>
+                        <br>
+                        <div class ="current-first"> SMOKE : <span>{{smoke}}</span></div>
+                        <br>
+                        <div class ="current-first"> DRINK : <span>{{drink}}</span></div>
+                        <br>
+                        <div class ="current-first"> TABACCO : <span> {{tabacco}}</span></div>
+                        <br>
+                        <div class ="current-first"> ALLERGY : <span> {{allergy}}</span></div>
+                        <br>
+                        <div class ="current-first"> SURGERY : <span>{{surgery}} </span></div>
+                        <br>
+                        <h2> Specific detail of patient regarding problem : </h2> 
+                        <br>
+                        <p>{{info}}</p>
+                        <br>
+                        
+                    </div>
+                    <div class="based-info" id="MEDICINE">
+                        <h1>
+                            Patient Medicine
+                        </h1>
+                        <hr/>
+                        <br>
+                        <div class="medicinep">
+                            <div class="generalInfo">
+                            
+                                <table>
+                                    <th>Date</th>
+                                    <th>Patient Name</th>
+                                    <th>Prescribed by</th>
+                                    <th>Medicine view</th>
+                                    <tr>
+                                        <td>15/04/2022</td>
+                                        <td>Pratyush Rai</td>
+                                        <td>Prerita Rai</td>
+                                        <td>>view</td>
+                                    </tr>
+                                </table>
+                            </div>
+                
+                        </div>
+                    </div>
+
+
+                    <div class="based-info" id="REPORT">
+                        <h1> Patient Report: </h1>
+                        <hr/>
+                        <div class="report">
+                            <div class="generalInfo">
+                                
+                                <table>
+                                    <th>Report Name</th>
+                                    <th>date</th>
+                                    <th>Prescribed by</th>
+                                    <th>Patient Name</th>
+                                    <th>Report view</th>
+                                    <tr>
+                                    
+                                     <td>Blood check</td>
+                                     <td>16/04/2022</td>
+                                     <td>Prerita Rai</td>
+                                     <td>Pratyush Rai</td>
+                                     <td>>view</td>
+                                    </tr>
+                                </table>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="based-info" id="CHECK">
+                        <h1> Patient Check-up Details: </h1>
+                        <hr/>
+                        <div class="check-p">
+                            <div class="generalInfo">
+                            
+                                <table>
+                                    <th>Date</th>
+                                    <th>Patient Name</th>
+                                    <th>DR Name</th>
+                                    <th>Check-up view</th>
+                                    <tr>
+                                          <td>15/04/2022</td>
+                                          <td>Pratyush Rai</td>
+                                          <td>Prerita Rai</td>
+                                          <td>view</td>
+                                     </tr>
+                                </table>
+                            </div>
+                
+                        </div>
+                    </div>
+                            
+
+                    <div class="based-info" id="INFO">
+                        <p class ="dr">You are currently taliking to Patient name : {{patientname}}<br>
+                           On the right side toogle bar is a communication medium by chat box , you can communicate easily with Patient.
+                           <br>
+                           On the left side toggle bar is a navigation medium by which you can switch as per your info.
+                           <br>
+                        </p>
+
+                    <div class="based-info">
+                        <p class ="quotes">Stay strong as you <br> live your life story and <br> remember your blessings,<br> no matter what<br> circumstances you face</p>
+                    </div>
+                    </div>
+                
+                
+
+            </div>
+        
+    </div>
+    
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+    <script src="/scriptS.js"></script>
+
+    </body>
+</html>

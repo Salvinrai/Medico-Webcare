@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comaptible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, intial-scaler=1.0">
+        <title>Doctor details </title>
+        <link rel="stylesheet" href="css/stylev.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class ="containersalvin">
+            <div class = "sidebar ">
+                <div class="logo">
+                    <img src="img/logo.png"><span>Medico</span>
+                </div>  
+            <nav>
+                <ul>
+                    <li><a href ="/patient">HOME</a></li>
+                    <li><a href ="/patientP">PROFILE</a></li>
+                    <li><a href ="/patientR">REPORTS</a></li>
+                    <li><a href ="/pCheck">CHECK-UP</a></li>
+                    <li><a href ="/patientD">DOCTOR</a></li>
+                    <li><a href ="/patientM">MEDICINE</a></li>
+                    
+                </ul>
+            </nav>
+           
+            </div>
+            
+        
+            <div class="education" >
+                <section >
+                    <div class="dr-info-page">
+                 <div class="dr-section">
+                     <div class ="pic-dr "> <img src="img/login.jpg"></div>
+                     <div class="dr-info">
+                        <div class="dr-result"><span>Name : </span> DR.{{doctorname}}</div>
+                        <div class="dr-result"><span> Age : </span>{{ age}}</div>
+                        <div class="dr-result"><span> Sex : </span> {{sex}}</div>
+                        <div class="dr-result"><span> Degree : </span> {{Degree}}</div>
+                        <div class="dr-result"><span> Email id :</span> {{Email}}</div>
+                        <div class="dr-result"><span> Currently working : </span> ---</div>
+                     </div>
+                 </div>
+                 <div class="dr-section">
+                    <div class ="spec-dr ">
+                        <div>
+                        <h2> More info</h2><p>Experience of more than {{Experience}}+ <br>
+                         No of patient handle till now is {{handle}}+ <br>
+                         Specalist in {{specialist}} </p>
+                        </div>
+                        <div>
+                            <h2> Working</h2><p> {{info}}</p>
+                            </div>
+                    </div>
+                    <div onclick="document.location='consult-d'" class="consult-dr">
+                       <button> Consultancy </button>
+                    </div>
+                </div>
+                </div>
+                </section>
+
+            </div>
+        
+    </div>
+    
+    
+    <script src=".js/scriptS.js"></script>
+    </body>
+</html>

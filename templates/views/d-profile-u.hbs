@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comaptible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, intial-scaler=1.0">
+        <title>  Doctor Profile update </title>
+        <link rel="stylesheet" href="css/styledv.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+        <div class ="containersalvin">
+            <div class = "sidebar ">
+            <div class="logo">
+                <img src="img/logo.png"><span>Medico</span>
+            </div>  
+            <nav>
+                <ul>
+                     <li><a href ="doctorv">HOME</a></li>
+                    <li><a href ="d-profile">PROFILE</a></li>
+                    <li><a href ="doctorPV">PATIENT</a></li>
+                    <li><a href ="pCheck.html">TIME SCHEDULE</a></li>
+                    <li><a href ="patientD.html">ACCESS</a></li>
+                    
+                    
+                </ul>
+            </nav>
+           
+            </div>
+            
+        
+            <div class="education" >
+                <div class=" profile-form">
+                    <div class="profile-nav">
+                        <nav>
+                            <ul>
+                                <li><a href ="d-profile"><i class="fa-solid fa-user"></i></a></li>
+                                <li><a href ="d-profile-u"><i class="fa-solid fa-user-pen"></i></a></li>
+                                <li><a href ="d-profile-ui"><i class="fa-solid fa-receipt"></i></a></li>
+                                <li><a href ="d-profile-us"><i class="fa-solid fa-file-lines"></i></i></a></li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class ="profile-info">
+                        <div class="profile-container">
+
+                            <div class ="rform">
+                           <h2 >Profile update</h2>
+                           <form action="/updateD" method="post">
+                            <div class="form-group">
+                                <label for="pname"> Name </label>
+                                <input type="pNAME" class="form-control" id="R-NAME" placeholder=" DOCTOR NAME" name="dname">
+                              </div>
+                            <div class="form-group">
+                                <label for="date">Age</label>
+                                <input type="number" class="form-control" id="DATE" placeholder=" AGE" name="age">
+                              </div>
+                              <div class="form-group">
+                                <label for="sex">Gender</label>
+                                <input type="Dname" class="form-control" id="D-name" placeholder=" SEX" name="sex">
+                              </div>
+                            <div class="form-group">
+                              <label for="email">Email id</label>
+                              <input type="email" class="form-control" id="P-name"placeholder=" EMAIL ID" name="email">
+                              
+                            </div>
+                              <div class="form-group">
+                                <label for="Phone">Phone No</label>
+                                <input type="number" class="form-control" id="P-name"placeholder=" Phone" name="phone">
+                                
+                              </div> 
+
+                            
+                            <div class ="pbtn"><button type="submit" class="btn-form">Submit</button></div>
+                        </form>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    
+    
+    
+    </body>
+</html>

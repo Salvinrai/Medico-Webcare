@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comaptible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, intial-scaler=1.0">
+        <title> Patient Report </title>
+        <link rel="stylesheet" href="css/stylev.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class ="containersalvin">
+            <div class = "sidebar ">
+                <div class="logo">
+                    <img src="img/logo.png"><span>Medico</span>
+                </div>  
+            <nav>
+                <ul>
+                    <li><a href ="/patient">HOME</a></li>
+                    <li><a href ="/patientP">PROFILE</a></li>
+                    <li><a href ="/patientR">REPORTS</a></li>
+                    <li><a href ="/pCheck">CHECK-UP</a></li>
+                    <li><a href ="/patientD">DOCTOR</a></li>
+                    <li><a href ="/patientM">MEDICINE</a></li>
+                    
+                </ul>
+            </nav>
+           
+            </div>
+            
+        
+            <div class="education" >
+                <div class="container">
+
+                    <div class ="rform">
+                   <h2 >REPORT FORM</h2>
+                   <form action="#">
+                    <div class="form-group">
+                        <label for="Rname"> Report Name </label>
+                        <input type="RNAME" class="form-control" id="R-NAME" placeholder=" DOCTOR NAME" name="rname">
+                      </div>
+                    <div class="form-group">
+                        <label for="date">DATE OF REPORT</label>
+                        <input type="date" class="form-control" id="DATE" placeholder=" AGE" name="date">
+                      </div>
+                      <div class="form-group">
+                        <label for="d-name">PRESCRIBED BY</label>
+                        <input type="Dname" class="form-control" id="D-name" placeholder=" SEX" name="dname">
+                      </div>
+                    <div class="form-group">
+                      <label for="name">PATIENT</label>
+                      <input type="pname" class="form-control" id="P-name" aria-describedby="emailHelp" placeholder=" EMAIL ID" name="pname">
+                      
+                    </div>
+                    <div class="form-group">
+                    <label for="DEGREE">UPLOAD YOUR REPORT</label>
+                    <input type="file" class="form-control" id="DEGREEFILE">
+                    </div>
+                    <div class ="pbtn"><button type="submit" class="btn-form">Submit</button></div>
+                </form>
+                </div>
+            
+                    <div class="report">
+                        <div class="generalInfo">
+                            <h1>Your Report Card</h1>
+                            <table>
+                                <th>Report Name</th>
+                                <th>date</th>
+                                <th>Prescribed by</th>
+                                <th>Patient Name</th>
+                                <th>Report view</th>
+                                <tr>
+                                    <td>Blood check</td>
+                                    <td>16/04/2022</td>
+                                    <td>Prerita Rai</td>
+                                    <td>Pratyush Rai</td>
+                                    <td>>view</td>
+                                </tr>
+                                
+                            </table>
+                        </div>
+            
+                    </div>
+                   
+                </div>
+                
+                
+                
+                
+
+            </div>
+        
+    </div>
+    
+    
+    <script src=".js/scriptS.js"></script>
+    </body>
+</html>
