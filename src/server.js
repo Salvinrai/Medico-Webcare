@@ -248,7 +248,7 @@ app.get('/back-d',auth, (req,res)=>{
 app.get('/back-p',dauth, (req,res)=>{ 
   res.render('doctorv')
 });
-
+// deserialization---work - for -- working module
 //------------------- logout work for patient--------------
 app.get('/logout', auth , async(req,res) =>{
   try {

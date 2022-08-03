@@ -5,7 +5,7 @@ const Register = require('../models/patientR');
 
 const auth = async (req,res,next) =>{
     try {
-
+       console.log("work");
         const token = req.cookies.jwt;
 
         const verifyUser = jwt.verify(token, process.env.SECRET_KEY);
